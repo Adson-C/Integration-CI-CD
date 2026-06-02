@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestSoma(t *testing.T) {
-	result := Soma(13, 7)
+	result := Soma(15, 5)
 	expected := 20
 
 	if result != expected {
