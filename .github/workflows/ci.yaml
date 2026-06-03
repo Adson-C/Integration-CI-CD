@@ -31,4 +31,4 @@ jobs:
               uses: docker/build-push-action@v7
               with:
                 push: true
-                tags: adson-c/integration-ci-cd
+                tags: ${{ secrets.DOCKERHUB_USERNAME }}/integration-ci-cd:latest
